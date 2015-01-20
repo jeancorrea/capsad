@@ -1,0 +1,29 @@
+* {
+	padding:0;
+	margin:0;
+	border:0;
+}
+
+.top {
+	background-color:#CFC;
+	width:100%;
+	height:8.3em;
+}
+
+#logo {
+	float:left;
+}
+
+#titulo {
+	position:absolute;
+	font:4em "Rockwell Condensed";
+	margin-top:0.45em;
+}
+
+#descricao {
+	float:right;
+	padding:0.5em 1em 0.5em 0.5em;
+	margin-top:1.5em;
+	text-align:right;
+	font:1.1em "Rockwell Condensed";
+}
