@@ -2,7 +2,7 @@
 <!--[if IE 9]><html class="lt-ie10" lang="pt-br" > <![endif]-->
 <html lang="pt-br">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
 	<title>CAPSad Digital</title>
 	<link rel="stylesheet" href="style.css">
 	<script src="script.js"></script>
@@ -10,6 +10,7 @@
 </head>
 
 <body>
+<?php include "conexao.php"; ?>
 	<div class="top">
 		<div id="logo">
 			<img src="img\ancora.png" /><span id="titulo">CAPSad Digital</span><!--titulo-->
