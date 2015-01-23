@@ -12,6 +12,8 @@ $endereco = $_POST['endereco'];
 $cep = $_POST['cep'];
 $cidade = $_POST['cidade'];
 $naturalidade = $_POST['naturalidade'];
+$escola = $_POST['escola'];
+$telefones = $_POST['telefones'];
 $pai = $_POST['pai'];
 $mae = $_POST['mae'];
 $rg = $_POST['rg'];
@@ -47,8 +49,8 @@ $emissaorg = $de_a.'-'.$de_m.'-'.$de_d;
 $inicio = $di_a.'-'.$di_m.'-'.$di_d;
 
 //Query de inserção no banco de dados
-$sql = mysql_query("INSERT INTO pacientes (nome, dn, genero, endereco, cep, cidade, naturalidade, pai, mae, rg, orgaorg, emissaorg, cpf, cns, certidao, demanda, cidp, cids, substancias, status, inicio)
-	VALUES ('$nome', '$dn', '$genero', '$endereco', '$cep', '$cidade', '$naturalidade', '$pai', '$mae', '$rg', '$orgaorg', '$emissaorg', '$cpf', '$cns', '$certidao', '$demanda', '$cidp', '$cids', '$substancias', '$status', '$inicio')");
+$sql = mysql_query("INSERT INTO pacientes (nome, dn, genero, endereco, cep, cidade, naturalidade, escola, telefones, pai, mae, rg, orgaorg, emissaorg, cpf, cns, certidao, demanda, cidp, cids, substancias, status, inicio)
+	VALUES ('$nome', '$dn', '$genero', '$endereco', '$cep', '$cidade', '$naturalidade', '$escola', '$telefones', '$pai', '$mae', '$rg', '$orgaorg', '$emissaorg', '$cpf', '$cns', '$certidao', '$demanda', '$cidp', '$cids', '$substancias', '$status', '$inicio')");
 if ($sql == true) {
 	echo "Dados cadastrados com sucesso!";
 } else {

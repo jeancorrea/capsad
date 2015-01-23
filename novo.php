@@ -23,6 +23,25 @@
 
 			<label>Naturalidade</label>
 			<input type="text" name="naturalidade"><br />
+
+			<label>Escolaridade</label>
+			<select name="escola">
+				<option></option>
+				<option>Analfabeto</option>
+				<option>Ensino Fundamental incompleto</option>
+				<option>Ensino Fundamental completo</option>
+				<option>Ensino Médio incompleto</option>
+				<option>Ensino Médio completo</option>
+				<option>Ensino Superior incompleto</option>
+				<option>Ensino Superior completo</option>
+				<option>Curso Normal Superior</option>
+				<option>Pós-graduação</option>
+				<option>Mestrado</option>
+				<option>Doutorado</option>
+			</select><!--escola--><br />
+
+			<label>Telefones</label>
+			<input type="text" name="telefones"><br />
 		</fieldset>
 
 		<fieldset>

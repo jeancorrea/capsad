@@ -40,6 +40,7 @@ div.content input, div.content select, div.content textarea {
 
 section.principal, aside.sidebar {
 	background-color:#F1FAF1;
+	min-height:100%;
 }
 
 section.principal {
@@ -79,7 +80,7 @@ form#novo input[name="nome"], form#novo input[name="pai"], form#novo input[name=
 	width:36em;
 }
 
-form#novo input[name="endereco"], form#novo input[name="naturalidade"], form#novo textarea[name="substancias"], form#novo input[name="certidao"] {
+form#novo input[name="endereco"], form#novo input[name="naturalidade"], form#novo textarea[name="substancias"], form#novo input[name="certidao"], form#novo input[name="telefones"] {
 	width:19.3em;
 }
 
