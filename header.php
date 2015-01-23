@@ -23,3 +23,4 @@
 	</div><!--top-->
 
 	<div class="content">
+		<section class="principal">
