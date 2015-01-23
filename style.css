@@ -28,3 +28,97 @@
 	text-align:right;
 	font:1.1em "Rockwell Condensed";
 }
+
+div.content {
+	width:60em;
+	padding:0 1.46em;
+}
+
+div.content input, div.content select, div.content textarea {
+	border:0.1em solid rgba(190, 190, 190, 0.5);
+}
+
+section.principal, aside.sidebar {
+	background-color:#F1FAF1;
+}
+
+section.principal {
+	float:left;
+	width:70%;
+	padding:1em;
+}
+
+section.principal h1 {
+	font:2.5em "Rockwell Condensed";
+	margin-bottom:0.3em;
+}
+
+form#novo fieldset {
+	border:0.1em solid rgba(190, 190, 190, 0.5);
+	padding:0.5em;
+}
+
+form#novo fieldset legend {
+	font:1.3em "Rockwell Condensed";
+	margin-left:0.2em;
+	margin-bottom:0.2em;
+}
+
+form#novo label {
+	font:1em "Rockwell Condensed";
+	float:left;
+	width:10em;
+}
+
+form#novo input, form#novo select {
+	height:1.5em;
+	margin:0.2em;
+}
+
+form#novo input[name="nome"], form#novo input[name="pai"], form#novo input[name="mae"] {
+	width:36em;
+}
+
+form#novo input[name="endereco"], form#novo input[name="naturalidade"], form#novo textarea[name="substancias"], form#novo input[name="certidao"] {
+	width:19.3em;
+}
+
+form#novo input[name="dn_d"], form#novo input[name="dn_m"], form#novo input[name="de_d"], form#novo input[name="de_m"], form#novo input[name="dn_a"], form#novo input[name="de_a"], form#novo input[name="di_d"], form#novo input[name="di_m"], form#novo input[name="di_a"] {
+	width:4em;
+}
+
+form#novo input[name="rg"], form#novo input[name="orgaorg"] {
+	width:8.8em;
+}
+
+form#novo select[name="genero"], form#novo select[name="demanda"], form#novo input[name="cpf"], form#novo input[name="cns"], form#novo select[name="status"] {
+	width:11.4em;
+}
+
+form#novo input[name="cep"] {
+	width:4.5em;
+}
+
+form#novo textarea {
+	height:4em;
+	margin:0.2em;
+}
+
+
+form#novo input.button {
+	font:1.05em "Rockwell Condensed";
+	padding:0.5em;
+	width:5em;
+	height:2.5em;
+	background-color:#CBEDCB;
+}
+
+form#novo fieldset.buttons {
+	margin-left:14em;
+	border:none;
+}
+
+aside.sidebar {
+	float:right;
+	width:30%;
+}

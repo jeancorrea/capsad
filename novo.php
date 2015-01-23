@@ -50,7 +50,7 @@
 		</fieldset>
 
 		<fieldset>
-		<legend></legend>
+		<legend>Informações adicionais</legend>
 			<label>Demanda</label>
 			<select name="demanda">
 				<option></option>
@@ -59,7 +59,7 @@
 				<option>Familiar</option>
 			</select><!--demanda--><br />
 
-			<label>Substâncias</label><br />
+			<label>Substâncias</label>
 			<textarea name="substancias" placeholder="Separe os nomes das substâncias por vírgulas"></textarea><br />
 
 			<label>CIDs</label>
@@ -76,7 +76,9 @@
 			<input type="text" name="di_d"> / <input type="text" name="di_m"> / <input type="text" name="di_a"><br />
 		</fieldset>
 
-		<input type="submit" value="Enviar">&nbsp;<input type="reset" value="Limpar">
+		<fieldset class="buttons">
+			<input type="submit" class="button" value="Enviar">&nbsp;<input type="reset" class="button" value="Limpar">
+		</fieldset><!--buttons-->
 	</form><!--novo-->
 
 <?php include "footer.php"; ?>
